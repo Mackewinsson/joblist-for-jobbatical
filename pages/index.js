@@ -40,7 +40,7 @@ export default index;
 export async function getServerSideProps() {
   // Fetch data from external API
   const client = new ApolloClient({
-    uri: "https://api.graphql.jobs/",
+    uri: process.env.GRAPHQL_URL,
     cache: new InMemoryCache(),
   });
 

@@ -13,11 +13,11 @@ const JobsContainer = ({ jobs }) => {
       <JobCard
         title={el.title}
         company={el.company.name}
-        id={el.id}
         tags={el.tags}
         isFeatured={el.isFeatured}
         locationNames={el.locationNames}
         logoUrl={el.company.logoUrl}
+        key={el.id}
       />
     );
   });

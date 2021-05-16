@@ -120,7 +120,7 @@ const JobCard = ({
   });
 
   return (
-    <Wrapper key={id} featured={isFeatured}>
+    <Wrapper featured={isFeatured}>
       <JobWrapper>
         <IconWrapper>
           {isFeatured ? (

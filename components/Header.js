@@ -68,7 +68,7 @@ const Header = () => {
     <Head>
       <SeachBar>
         <h1>Job List</h1>
-        <span>By Mackewinsson</span>
+        <span>By Mackewinsson P.</span>
         <SeachWrapper>
           <SearchInput />
           <SearchButton>Search</SearchButton>

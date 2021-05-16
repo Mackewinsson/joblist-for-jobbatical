@@ -36,6 +36,9 @@ const SearchInput = styled.input`
   border: none;
   width: 400px;
   padding: 0px;
+  @media (max-width: 800px) {
+    width: 200px;
+  }
 `;
 
 const SeachWrapper = styled.div`
@@ -55,6 +58,9 @@ const SearchButton = styled.button`
   border: none;
   font-size: 22px;
   cursor: pointer;
+  @media (max-width: 800px) {
+    width: 100px;
+  }
 `;
 
 const Header = () => {

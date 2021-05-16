@@ -14,6 +14,15 @@ const BodyWrapper = styled.div`
     "header header header"
     "content content content"
     "footer footer footer";
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+  }
 `;
 
 const index = ({ jobs }) => {

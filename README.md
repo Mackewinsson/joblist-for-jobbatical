@@ -20,9 +20,9 @@ npm install
 
 3. add the env variables
 
-  a) create a file .env.local in the root directory
-  b) add this variable GRAPHQL_URL=https://api.graphql.jobs/ 
-  c) save everything
+  1. create a file .env.local in the root directory
+  2. add this variable GRAPHQL_URL=https://api.graphql.jobs/ 
+  3. save everything
 
 4. Run the app
 

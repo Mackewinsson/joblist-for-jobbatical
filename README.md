@@ -1,7 +1,10 @@
-# Example app with styled-components
+# How to run this nextjs app locally
+
+1. Clone this repo and cd into it.
 
 ```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
+git clone <githublink>
+
+cd joblist-for-jobbatical
+
 ```
